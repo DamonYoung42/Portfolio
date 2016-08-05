@@ -1,0 +1,33 @@
+body {
+	background: #E6E6FF;
+}
+
+
+.contactInfo {
+	font-family: Georgia, Serif;
+	text-align: center;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+.jumbotron {
+	background-image: url("../images/bridge.jpg");
+	background-size: cover;
+	color: white;
+	text-align: center;
+}
+
+#introduction {
+	text-align: center;
+}
+
+.project {
+	padding: 50px;
+	align-self: center;
+}
