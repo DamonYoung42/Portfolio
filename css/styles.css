@@ -1,6 +1,30 @@
-body {
+html { 
+	font-size: 75%; }
+
+body { 
+	font-size: 1rem;
 	background: #E6E6FF;
 	padding-top: 50px;
+}
+
+@media only screen and (min-width: 320px) {
+	html { font-size: 100%; }
+	body { font-size: 1.75rem; }
+	h1 { font-size: 1.50rem; }
+	h2 { font-size: 1.25rem; }
+	h3 { font-size: 1rem; }
+	h4 { font-size: .75rem; }
+
+}
+
+@media only screen and (min-width:800px) {
+	html { font-size: 120%; }
+	body { font-size: 2rem; }
+	h1 { font-size: 1.75rem; }
+	h2 { font-size: 1.50rem; }
+	h3 { font-size: 1.25rem; }	
+	h4 { font-size: 1rem; }
+
 }
 
 .contactInfo {
@@ -28,7 +52,6 @@ a:visited {
 }
 
 .project {
-
 	padding: 10px;
 	align-self: center;
 }
