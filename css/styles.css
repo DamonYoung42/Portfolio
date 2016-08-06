@@ -6,7 +6,9 @@ body {
 	background: #E6E6FF;
 }
 
-@media only screen and (min-width: 320px) {
+@media only screen and (max-width: 320px) {
+	html {font-size: 80%;}
+	body {font-size: 1rem;}
 	h1 { font-size: 1.50rem; }
 	h2 { font-size: 1.25rem; }
 	h3 { font-size: 1rem; }
@@ -14,7 +16,7 @@ body {
 
 }
 
-@media only screen and (min-width:640px) {
+@media only screen and (max-width:640px) {
 	h1 { font-size: 1.75rem; }
 	h2 { font-size: 1.50rem; }
 	h3 { font-size: 1.25rem; }	
